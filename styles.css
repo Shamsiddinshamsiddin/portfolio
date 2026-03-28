@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color: #00ff00;
+    background-color: rgb(255, 255, 255);
+    color: hsl(226, 100%, 50%);
     font-family: "Courier New", monospace;
     margin: 0;
 }
@@ -8,23 +8,23 @@ body {
 header {
     text-align: center;
     padding: 40px;
-    border-bottom: 1px solid #00ff00;
+    border-bottom: 1px solid hsl(226, 95%, 61%);
 }
 
 nav {
     text-align: center;
     padding: 10px;
-    border-bottom: 1px solid #00ff00;
+    border-bottom: 1px solid hsl(226, 95%, 64%);
 }
 
 nav a {
-    color: #00ff00;
+    color: hwb(226 36% 0%);
     margin: 10px;
     text-decoration: none;
 }
 
 nav a:hover {
-    text-shadow: 0 0 10px #00ff00;
+    text-shadow: 0 0 10px hsl(226, 100%, 50%);
 }
 
 section {
@@ -32,21 +32,21 @@ section {
 }
 
 .project {
-    border: 1px solid #00ff00;
+    border: 1px solid hsl(226, 100%, 50%);
     padding: 15px;
     margin: 15px;
 }
 
 .project img {
     width: 200px;
-    border: 1px solid #00ff00;
+    border: 1px solid hsl(226, 100%, 50%);
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    border-top: 1px solid #00ff00;
+    border-top: 1px solid hsl(226, 100%, 50%);
 }
 h1, h2 {
-    text-shadow: 0 0 10px #00ff00;
+    text-shadow: 0 0 10px hsl(226, 100%, 50%);
 }
