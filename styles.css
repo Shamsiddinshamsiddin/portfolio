@@ -1,30 +1,34 @@
 body {
-    background-color: rgb(255, 255, 255);
-    color: hsl(226, 100%, 50%);
-    font-family: "Courier New", monospace;
     margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d1117;
+    color: #c9d1d9;
 }
 
 header {
     text-align: center;
     padding: 40px;
-    border-bottom: 1px solid hsl(226, 95%, 61%);
+    background: #161b22;
+}
+
+h1 {
+    color: #00ff88;
 }
 
 nav {
     text-align: center;
     padding: 10px;
-    border-bottom: 1px solid hsl(226, 95%, 64%);
+    background: #0d1117;
 }
 
 nav a {
-    color: hwb(226 36% 0%);
-    margin: 10px;
+    color: #58a6ff;
+    margin: 0 15px;
     text-decoration: none;
 }
 
 nav a:hover {
-    text-shadow: 0 0 10px hsl(226, 100%, 50%);
+    color: #00ff88;
 }
 
 section {
@@ -32,21 +36,22 @@ section {
 }
 
 .project {
-    border: 1px solid hsl(226, 100%, 50%);
-    padding: 15px;
-    margin: 15px;
+    background: #161b22;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
 }
 
-.project img {
-    width: 200px;
-    border: 1px solid hsl(226, 100%, 50%);
+.project a {
+    color: #58a6ff;
+}
+
+.project a:hover {
+    color: #00ff88;
 }
 
 footer {
     text-align: center;
-    padding: 10px;
-    border-top: 1px solid hsl(226, 100%, 50%);
-}
-h1, h2 {
-    text-shadow: 0 0 10px hsl(226, 100%, 50%);
+    padding: 20px;
+    background: #161b22;
 }

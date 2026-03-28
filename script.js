@@ -1,4 +1,12 @@
-<header>
-    <h1 id="typing"></h1>
-    <p>Cybersecurity | Pentesting</p>
-</header>
+const text = "Shamsiddin";
+let i = 0;
+
+function typing() {
+    if (i < text.length) {
+        document.getElementById("typing").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typing, 100);
+    }
+}
+
+typing();
