@@ -68,3 +68,18 @@
 ---
 
 © 2026 Shamsiddin
+
+I created a password checker.
+
+I learned:
+- string methods
+- password validation
+
+#yangi mini project qoshildi:
+#Takrorlash
+
+I built a smart password tool.
+
+It can:
+- generate passwords
+- check password strength
