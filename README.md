@@ -83,3 +83,4 @@ I built a smart password tool.
 It can:
 - generate passwords
 - check password strength
+.
